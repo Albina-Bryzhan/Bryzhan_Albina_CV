@@ -1,0 +1,279 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* main styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* main_content */
+.main_content {
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px 40px;
+}
+
+/* about styles */
+
+.about {
+  margin-bottom: 20px;
+}
+
+.about_position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.about_discription,
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
+}
+
+/* work styles */
+
+.work {
+    margin-bottom: 20px;
+}
+.title{
+font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.work_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.organization {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0a0909;
+  margin-bottom: 15px;
+}
+.text_underline {
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+.line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work_list {
+  padding: 0;
+  margin-left: 5px;
+}
+
+.work_list_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 24px;
+  color: #000000;
+}
+
+.courses_list_item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.courses{
+    margin-bottom: 20px;
+}
+.courses_list_expln,
+.courses_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #0f0f0f;
+  margin-bottom: 10px;
+}
+
+/* education styles*/
+.education {
+  
+  margin-bottom: 20px;
+}
+
+.name_of_univerity {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.speciality {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* sidebar styles */
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 20px;
+}
+
+.contacts,
+.tech_skills,
+.soft_skills,
+.interests {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.interests {
+  margin-left: 40px;
+}
+
+.contacts {
+margin-bottom: 20px;
+  
+}
+
+.sidebar_title {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  /* margin-right: 10px; */
+}
+
+.contact_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contacts_items p{
+    margin-bottom: 5px;
+}
+
+.tech_skills_list {
+  color: #fff;
+  padding: 0;
+}
+
+.tech_skills_list li{
+  color: #fb6d3a;
+  background: url(../img/check.svg) 0px 4px no-repeat;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.tech_skills_text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft_skills_list {
+  color: #fff;
+  padding: 0;
+}
+.soft_skills_list li{
+    color: #fb6d3a;
+  background: url(../img/Star.svg) 0px 4px no-repeat;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.soft_skills_text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.interests_list {
+  color: #fff;
+  padding: 0;
+}
+
+.interests_list li {
+  color: #fb6d3a;
+  background: url(../img/Heart.svg) 0px 4px no-repeat;
+  padding-left: 25px;
+  margin-bottom: 5px;
+}
+
+.interests_text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
